@@ -1,0 +1,5 @@
+ There once was an X from place B,
+ Who satisfied predicate P,
+ The X did thing A,
+ In a specified way,
+ Resulting in circumstance C.
