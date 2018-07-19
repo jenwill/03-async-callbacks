@@ -13,6 +13,21 @@ const printCharacters = (characters) => {
 };
 const CHARACTERS = 400;
 
+
+// try {
+//   reader.readNCharsAsync(mobyPath, CHARACTERS, (moby) => {
+//     printCharacters(moby);
+//   });
+//   reader.readNCharsAsync(limerickPath, CHARACTERS, (limerick) => {
+//     printCharacters(limerick);
+//   });
+//   reader.readNCharsAsync(frankPath, CHARACTERS, (frank) => {
+//     printCharacters(frank);
+//   });
+// } catch (error) {
+//   logger.log(logger.ERROR, error);
+// }
+
 try {
   reader.readNCharsAsync(mobyPath, CHARACTERS, (moby) => {
     printCharacters(moby);

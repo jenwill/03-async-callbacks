@@ -8,7 +8,7 @@ const reader = module.exports = {};
 reader.readNCharsAsync = (filePath, characters, callback) => {
   logger.log(logger.VERBOSE, `Reading ${filePath}`);
 
-  fs.readFile( filePath, (error, fileBuffer) => {
+  fs.readFile(filePath, (error, fileBuffer) => {
     if (error) {
       throw error;
     }
