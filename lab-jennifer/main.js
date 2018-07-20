@@ -32,6 +32,8 @@ const paths = [mobyPath, limerickPath, frankPath];
 try {
   reader.readNCharsAsync(paths, CHARACTERS, (resultsArray) => {
     printCharacters(resultsArray[0]);
+    printCharacters(resultsArray[1]);
+    printCharacters(resultsArray[2]);
   });
 } catch (error) {
   logger.log(logger.ERROR, error);
